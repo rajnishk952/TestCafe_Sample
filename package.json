@@ -1,0 +1,20 @@
+{
+  "name": "testcafe-browserstack-samples",
+  "version": "1.0.0",
+  "description": "Sample scripts using TestCafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./tests/",
+    "browserstack:single": "./config/single-run.sh",
+    "browserstack:parallel": "./config/parallel-run.sh",
+    "browserstack:sequential": "./config/sequential-run.sh"
+  },
+  "author": "Rajnish Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@browserstack/testcafe": "^1.8.6",
+    "@browserstack/testcafe-browser-provider-browserstack": "^1.13.3",
+    "testcafe": "^1.9.0",
+    "testcafe-browser-provider-browserstack": "^1.13.0"
+  }
+}
