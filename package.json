@@ -14,7 +14,6 @@
   "dependencies": {
     "@browserstack/testcafe": "^1.8.6",
     "@browserstack/testcafe-browser-provider-browserstack": "^1.13.3",
-    "testcafe": "^1.9.0",
-    "testcafe-browser-provider-browserstack": "^1.13.0"
+    "testcafe-hammerhead": "^17.1.20"
   }
 }
